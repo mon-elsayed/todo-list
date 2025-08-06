@@ -190,7 +190,7 @@ function App() {
                       onClick={() => saveEdit(todo.id)}
                       className="text-green-500 hover:text-green-700 transition hover:scale-110"
                     >
-                       <Save  size={20}/>
+                       <Save  size={10} />
                     </button>
                   </div>
                 ) : (
